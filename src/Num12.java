@@ -64,14 +64,25 @@ static int randomQuestion = 0;
 
 //단어 사전
 public static void Dic() {
-	v.add(new Word("love", "사랑"));
-	v.add(new Word("animal", "동물"));
-	v.add(new Word("painting", "그림"));
-	v.add(new Word("bear", "곰"));
 	v.add(new Word("eye", "눈"));
-	v.add(new Word("picture", "사진"));
-	v.add(new Word("society", "사회"));
-	v.add(new Word("human", "인간"));
+	v.add(new Word("animal","동물"));
+	v.add(new Word("love","사랑"));
+	v.add(new Word("emotion","감정"));
+	v.add(new Word("human","인간"));
+	v.add(new Word("deal","거래"));
+	v.add(new Word("society","사회"));
+	v.add(new Word("sculpture","조각상"));
+	v.add(new Word("painting","그림"));
+	v.add(new Word("lover","애인"));
+	
+	v.add(new Word("music", "음악"));
+	v.add(new Word("pen", "펜"));
+	v.add(new Word("snack", "과자"));
+	v.add(new Word("dear", "사슴"));
+	v.add(new Word("face", "얼굴"));
+	v.add(new Word("chair", "의자"));
+	v.add(new Word("box", "상자"));
+	
 }
 
 //단어 삽입
